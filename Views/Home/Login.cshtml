@@ -1,0 +1,31 @@
+﻿
+<main id="main" class="main">
+
+    <div class="container-fluid d-flex justify-content-center align-items-center vh-100">
+        <div class="card p-4 shadow" style="width: 350px;">
+            <div class="text-center">
+                <img src="~/quizlogo.png" alt="Quiz Logo" width="80">
+                <h4 class="mt-2">Quiz Management System</h4>
+            </div>
+            <h5 class="text-center mt-3">Register</h5>
+            <p class="text-center text-muted">Enter details</p>
+
+            <form>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password">
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+
+            <div class="text-center mt-3">
+                <p class="mb-0">Do you have an account?  <a class="nav-link nav-icon" asp-controller="Home" asp-action="Register"><span class="text-primary">Sign up</span></a></p>
+            </div>
+        </div>
+    </div>
+
+</main>
