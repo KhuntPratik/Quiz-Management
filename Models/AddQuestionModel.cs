@@ -4,6 +4,11 @@ namespace Quiz1.Models
 {
     public class AddQuestionModel
     {
+
+        [Required]
+        public string QuestionID { get; set; }
+
+
         [Required]
         public string QuestionText { get; set; }
 
@@ -28,6 +33,18 @@ namespace Quiz1.Models
         [Required]
         public string QuestionMarks { get; set; }
 
-      
+        [Required]
+        public string IsActive { get; set; }
+
+        [Required]
+        public string UserID { get; set; }
+
+        [Required]
+        public DateTime Created { get; set; }
+
+        [Required]
+        public DateTime Modified { get; set; }
+
+
     }
 }
